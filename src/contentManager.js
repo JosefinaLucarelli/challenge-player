@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const db = require('./db'); // Si tienes NeDB aquí
+const db = require('./db'); 
 
 async function fetchAdsFromAPI() {
     try {
