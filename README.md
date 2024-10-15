@@ -1,19 +1,26 @@
-Latinad Player
+# Latinad Player
+
 Un reproductor de anuncios simple desarrollado con Electron, que muestra imágenes y videos desde una carpeta local. El reproductor simula la funcionalidad de un reproductor de anuncios real, permitiendo la gestión y visualización de contenido multimedia.
 
-Tabla de Contenidos
-Características
-Estructura del Proyecto
-Instalación
-Uso
-Configuración del Backend
-Dependencias
-Características
-Reproducción de anuncios en bucle (imágenes y videos).
-Control de duración de cada anuncio.
-Oculte el cursor del mouse cuando está sobre el reproductor.
-Fácil de configurar y extender.
-Estructura del Proyecto
+## Tabla de Contenidos
+
+- [Características](#características)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Configuración del Backend](#configuración-del-backend)
+- [Dependencias](#dependencias)
+
+## Características
+
+- Reproducción de anuncios en bucle (imágenes y videos).
+- Control de duración de cada anuncio.
+- Oculte el cursor del mouse cuando está sobre el reproductor.
+- Fácil de configurar y extender.
+
+## Estructura del Proyecto
+
+```plaintext
 challenge-player/
 │
 ├── assets/                  # Contiene archivos multimedia (imágenes y videos)
