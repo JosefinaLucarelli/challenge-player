@@ -1,13 +1,44 @@
-body {
-    margin: 0;
-    cursor: none; /* Ocultar el cursor */
-  }
-  
-  #current-ad, #next-ad {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#ad-container {
+  width: 100%;
+  height: 100vh; /* Hacer que ocupe toda la altura de la ventana */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Para asegurar que se vea el contenedor */
+}
+
+
+.ad-slot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+video, img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegurar que llenen el espacio disponible */
+}
+
+#current-ad {
+  opacity: 1;
+} 
+
+.hide-cursor {
+  cursor: none; /* Ocultar cursor */
+}
+
+
   
